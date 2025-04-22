@@ -1,0 +1,111 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Trinitarian Knowledge Graph Architecture</text>
+  
+  <!-- Main triangle structure -->
+  <polygon points="400,100 150,400 650,400" fill="none" stroke="#555" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Three Graph Circles -->
+  <circle cx="400" cy="100" r="80" fill="#e6f7ff" stroke="#1890ff" stroke-width="3"/>
+  <circle cx="150" cy="400" r="80" fill="#f6ffed" stroke="#52c41a" stroke-width="3"/>
+  <circle cx="650" cy="400" r="80" fill="#fff2e8" stroke="#fa8c16" stroke-width="3"/>
+  
+  <!-- Graph Labels -->
+  <text x="400" y="105" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1890ff">Ontological Graph</text>
+  <text x="150" y="405" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#52c41a">Instance Graph</text>
+  <text x="650" y="405" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#fa8c16">Context Graph</text>
+  
+  <!-- Adjunction Connections -->
+  <path d="M 330,150 L 200,350" stroke="#6f42c1" stroke-width="3" stroke-dasharray="none" marker-end="url(#arrow)"/>
+  <path d="M 470,150 L 600,350" stroke="#6f42c1" stroke-width="3" stroke-dasharray="none" marker-end="url(#arrow)"/>
+  <path d="M 220,400 L 580,400" stroke="#6f42c1" stroke-width="3" stroke-dasharray="none" marker-end="url(#arrow)"/>
+  
+  <!-- Reverse Adjunction Connections -->
+  <path d="M 200,330 L 330,130" stroke="#6f42c1" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrow)"/>
+  <path d="M 600,330 L 470,130" stroke="#6f42c1" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrow)"/>
+  <path d="M 580,380 L 220,380" stroke="#6f42c1" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrow)"/>
+  
+  <!-- Adjunction Labels -->
+  <text x="250" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#6f42c1" transform="rotate(-30 250 210)">Left Adjoint</text>
+  <text x="225" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#6f42c1" transform="rotate(-30 225 240)">instanceOf</text>
+  
+  <text x="550" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#6f42c1" transform="rotate(30 550 210)">Left Adjoint</text>
+  <text x="575" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#6f42c1" transform="rotate(30 575 240)">appliesTo</text>
+  
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#6f42c1">Left Adjoint</text>
+  <text x="400" y="390" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#6f42c1">relevantIn</text>
+  
+  <!-- Graph Contents -->
+  <!-- Ontological Graph Nodes -->
+  <circle cx="350" cy="70" r="15" fill="#1890ff"/>
+  <circle cx="400" cy="50" r="15" fill="#1890ff"/>
+  <circle cx="450" cy="70" r="15" fill="#1890ff"/>
+  <circle cx="430" cy="120" r="15" fill="#1890ff"/>
+  <circle cx="370" cy="120" r="15" fill="#1890ff"/>
+  
+  <!-- Ontological Graph Edges -->
+  <line x1="350" y1="70" x2="400" y2="50" stroke="#1890ff" stroke-width="2"/>
+  <line x1="400" y1="50" x2="450" y2="70" stroke="#1890ff" stroke-width="2"/>
+  <line x1="450" y1="70" x2="430" y2="120" stroke="#1890ff" stroke-width="2"/>
+  <line x1="430" y1="120" x2="370" y2="120" stroke="#1890ff" stroke-width="2"/>
+  <line x1="370" y1="120" x2="350" y2="70" stroke="#1890ff" stroke-width="2"/>
+  
+  <!-- Instance Graph Nodes -->
+  <circle cx="100" cy="370" r="15" fill="#52c41a"/>
+  <circle cx="120" cy="420" r="15" fill="#52c41a"/>
+  <circle cx="180" cy="430" r="15" fill="#52c41a"/>
+  <circle cx="200" cy="380" r="15" fill="#52c41a"/>
+  <circle cx="150" cy="350" r="15" fill="#52c41a"/>
+  
+  <!-- Instance Graph Edges -->
+  <line x1="100" y1="370" x2="150" y2="350" stroke="#52c41a" stroke-width="2"/>
+  <line x1="150" y1="350" x2="200" y2="380" stroke="#52c41a" stroke-width="2"/>
+  <line x1="200" y1="380" x2="180" y2="430" stroke="#52c41a" stroke-width="2"/>
+  <line x1="180" y1="430" x2="120" y2="420" stroke="#52c41a" stroke-width="2"/>
+  <line x1="120" y1="420" x2="100" y2="370" stroke="#52c41a" stroke-width="2"/>
+  
+  <!-- Context Graph Nodes -->
+  <circle cx="600" cy="370" r="15" fill="#fa8c16"/>
+  <circle cx="620" cy="420" r="15" fill="#fa8c16"/>
+  <circle cx="680" cy="430" r="15" fill="#fa8c16"/>
+  <circle cx="700" cy="380" r="15" fill="#fa8c16"/>
+  <circle cx="650" cy="350" r="15" fill="#fa8c16"/>
+  
+  <!-- Context Graph Edges -->
+  <line x1="600" y1="370" x2="650" y2="350" stroke="#fa8c16" stroke-width="2"/>
+  <line x1="650" y1="350" x2="700" y2="380" stroke="#fa8c16" stroke-width="2"/>
+  <line x1="700" y1="380" x2="680" y2="430" stroke="#fa8c16" stroke-width="2"/>
+  <line x1="680" y1="430" x2="620" y2="420" stroke="#fa8c16" stroke-width="2"/>
+  <line x1="620" y1="420" x2="600" y2="370" stroke="#fa8c16" stroke-width="2"/>
+  
+  <!-- Integration Components -->
+  <rect x="200" y="480" width="400" height="80" rx="10" ry="10" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  <text x="400" y="510" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Query Engine &amp; API Layer</text>
+  <text x="400" y="540" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">Multi-graph traversal with adjunction mapping</text>
+  
+  <!-- Graph Info Boxes -->
+  <rect x="320" y="110" width="160" height="60" rx="5" ry="5" fill="white" fill-opacity="0.9" stroke="#1890ff" stroke-width="1"/>
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Concepts, Categories</text>
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Properties, Relations</text>
+  <text x="400" y="170" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">"What things ARE"</text>
+  
+  <rect x="70" y="410" width="160" height="60" rx="5" ry="5" fill="white" fill-opacity="0.9" stroke="#52c41a" stroke-width="1"/>
+  <text x="150" y="430" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Entities, Events</text>
+  <text x="150" y="450" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Facts, Observations</text>
+  <text x="150" y="470" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">"What EXISTS"</text>
+  
+  <rect x="570" y="410" width="160" height="60" rx="5" ry="5" fill="white" fill-opacity="0.9" stroke="#fa8c16" stroke-width="1"/>
+  <text x="650" y="430" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Situations, Perspectives</text>
+  <text x="650" y="450" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Conditions, Timeframes</text>
+  <text x="650" y="470" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">"When things APPLY"</text>
+  
+  <!-- Arrow Definitions -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#6f42c1"/>
+    </marker>
+  </defs>
+</svg>

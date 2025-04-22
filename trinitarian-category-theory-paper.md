@@ -303,7 +303,7 @@ and the relationships between $A'$, $B'$, and $C'$ preserve the adjunctions of t
 
 2. We need to show that the adjunctions are preserved. For the adjunction $F_{AB} \dashv G_{BA}$, we need to demonstrate:
    
-   $$\text{Hom}_{\mathcal{B}}(F_{AB}(A'), B') \cong \text{Hom}_{\mathcal{A}}(A', G_{BA}(B'))$$
+   $\text{Hom}_{\mathcal{B}}(F_{AB}(A'), B') \cong \text{Hom}_{\mathcal{A}}(A', G_{BA}(B'))$
 
    By construction, $A'$ maps to both $G_{BA}(B)$ and $G_{CA}(C)$. Applying $F_{AB}$ to $A'$ gives an object in $\mathcal{B}$ that maps into $F_{AB}(G_{BA}(B)) \cong B$ by the perichoretic isomorphism $\phi_{AB}$.
 
@@ -311,7 +311,7 @@ and the relationships between $A'$, $B'$, and $C'$ preserve the adjunctions of t
 
    The adjunction $F_{AB} \dashv G_{BA}$ provides a natural bijection:
    
-   $$\text{Hom}_{\mathcal{B}}(F_{AB}(A'), B') \cong \text{Hom}_{\mathcal{A}}(A', G_{BA}(B'))$$
+   $\text{Hom}_{\mathcal{B}}(F_{AB}(A'), B') \cong \text{Hom}_{\mathcal{A}}(A', G_{BA}(B'))$
 
    Through the limit construction and the naturality of the adjunction, this bijection is preserved for the constructed objects.
 
